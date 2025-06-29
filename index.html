@@ -10,4 +10,13 @@
   </head>
   <body>
   <script type="text/javascript" src="lib.min.js"></script><script type="text/javascript" src="gui.js"></script></body>
+  <script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const feedbackButton = document.querySelector('.button_outlined-button_2f510');
+    if (feedbackButton) {
+      feedbackButton.remove();
+    }
+  });
+</script>
+
 </html>
