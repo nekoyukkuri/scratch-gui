@@ -232,6 +232,13 @@ export default [
                 description="Description for the 'LEGO WeDo 2.0' extension"
                 id="gui.extension.wedo2.description"
             />
+            const Scratch4Visual = require('./scratch4visual.js');
+
+module.exports = {
+  // 既存の拡張…
+  scratch4visual: Scratch4Visual,
+};
+
         ),
         featured: true,
         disabled: false,
